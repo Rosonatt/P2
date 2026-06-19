@@ -148,7 +148,10 @@ Copie o exemplo:
 ```bash
 cp .env.example .env
 ```
+### Nota: Ajuste a porta 5435 caso tenha configurado uma diferente no seu docker-compose.
 ## Defina a string de conexão forçando o acesso local (PowerShell)
+
+```bash
 $env:DATABASE_URL="postgresql://postgres:postgres@localhost:5435/produtos_dev"
 
 ---
